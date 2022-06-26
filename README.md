@@ -14,7 +14,7 @@ Going forward I would rather use a CDN to host static content, as that removes a
 
 ## Security Questions
 
-1. Endpoint protection (IDS/IPS etc..), Key or Cert only SSH, Firewall Rules, Ensure SELinux is installed/running, Agents for metrics and aggregated logging
+Endpoint protection (IDS/IPS etc..), Key or Cert only SSH, Firewall Rules, Ensure SELinux is installed/running, Agents for metrics and aggregated logging
 
 
 Endpoint protection - Provides monitoring, alerting, response playbooks for any known exploits.
@@ -28,7 +28,7 @@ SELinux/AppArmor - Provides more control over what activities user/process/daemo
 Metrics/Aggregated logging - Provides more visibility, alerts can be set up 
 
 
-2. GDPR Compliance, Ransomware, Data Breaches
+GDPR Compliance, Ransomware, Data Breaches
 
 ### GDPR  
 
