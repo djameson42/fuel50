@@ -1,5 +1,7 @@
 ## DevOps Task
 
+Page available at https://fuel50.djameson.dev
+
 In this repository you can find the terraform code for the task. At a high level it provisions a ALB with a certificate for fuel50.djameson.dev. The ALB redirects non secure web traffic (http) to https. The ALB forwards traffic to an EC2 instance running an nginx server that returns 'Hello World!'. The EC2 instance is set up to only accept ingress traffic from the ALB. 
 
 If I had more time I would:
